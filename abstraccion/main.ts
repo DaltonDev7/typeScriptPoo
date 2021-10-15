@@ -1,0 +1,10 @@
+// LAS CLASES ABSTRACTA POR SI MISMA NO IDENTIFICA ALGO CONTRETO. 
+// NO SE PUEDEN INSTANCIAR OBJETOS
+// SE UTILIZAN SOLO COMO SUPER CLASE
+// UNA CLASE ABSTRACTA SE UTILIZAN PARA DEFINIR  UNA CLASE BASE EN LA JERARQUIA DE BASE.
+
+import { Animal } from "./animal.model";
+import { Perro } from './perro.model';
+
+let perro:Perro = new Perro()
+perro.Ruido()
